@@ -25,4 +25,5 @@ int main(void)
 		(unsigned int)sizeof(size_of_long_long_int));
 	printf("Size of a float: %d byte(s)\n",
 		(unsigned int)sizeof(size_of_float));
+	return(0);
 }
