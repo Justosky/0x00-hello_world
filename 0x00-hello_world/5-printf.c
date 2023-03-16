@@ -4,7 +4,7 @@
 /**
 *main - Entry point
 *printf - Prints a string of text ending with a newline.
-*Return - Always SUCCESS
+*Return: Always 0 (Success)
 */
 
 int main(void)
