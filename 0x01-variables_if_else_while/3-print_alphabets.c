@@ -17,7 +17,7 @@ int main(void)
 	 _lower_and_upper_case_letters <= 52; _lower_and_upper_case_letters++)
 
 	{ putchar(lower_and_upper_case_letters[_lower_and_upper_case_letters]); 
-	putchar('\n')}
+	putchar('\n');}
 
 	return (0);
 }
