@@ -19,5 +19,7 @@ int main(void)
 
 	{ putchar(lower_and_upper_case_letters[_lower_and_upper_case_letters]); }
 
+	putchar('\n')
+
 	return (0);
 }
