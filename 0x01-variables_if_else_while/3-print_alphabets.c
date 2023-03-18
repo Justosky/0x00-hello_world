@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char lower_and_upper_case_letters[56]
+	char lower_and_upper_case_letters[52]
 
 	 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
