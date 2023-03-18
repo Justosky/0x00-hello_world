@@ -16,7 +16,7 @@ int main(void)
 	for (_lower_and_upper_case_letters = 0;
 	 _lower_and_upper_case_letters <= 52; _lower_and_upper_case_letters++)
 
-	{ putchar(lower_and_upper_case_letters[_lower_and_upper_case_letters]) ;}
+	{ putchar(lower_and_upper_case_letters[_lower_and_upper_case_letters]); }
 
 	return (0);
 }
