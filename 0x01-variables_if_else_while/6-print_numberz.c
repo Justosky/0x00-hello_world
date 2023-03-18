@@ -12,6 +12,6 @@ int main(void)
 	for (single_digits_of_base_ten = 48;
 	single_digits_of_base_ten < 58; single_digits_of_base_ten++)
 	{putchar(single_digits_of_base_ten); }
-
+	putchar('\n');
 	return (0);
 }
