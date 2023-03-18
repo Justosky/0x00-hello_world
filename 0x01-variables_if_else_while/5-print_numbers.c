@@ -11,7 +11,7 @@ int main(void)
 
 	for (single_digits_of_base_ten = 0; single_digits_of_base_ten < 10;
 	single_digits_of_base_ten++)
-	{printf("%i\n", single_digits_of_base_ten); }
-
+	{printf("%i", single_digits_of_base_ten); }
+	printf("\n");
 	return (0);
 }
