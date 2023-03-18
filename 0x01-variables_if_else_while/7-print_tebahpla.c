@@ -13,5 +13,7 @@ int main(void)
 	lower_case_alph_in_rev--)
 	{putchar(lower_case_alph_in_rev); }
 
+	putchar('\n');
+
 	return (0);
 }
