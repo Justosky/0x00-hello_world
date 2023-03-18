@@ -9,6 +9,7 @@
 int main(void)
 {
 	char lower_and_upper_case_letters[56]
+
 	 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	int _lower_and_upper_case_letters;
@@ -17,8 +18,6 @@ int main(void)
 	 _lower_and_upper_case_letters <= 52; _lower_and_upper_case_letters++)
 
 	{ putchar(lower_and_upper_case_letters[_lower_and_upper_case_letters]); }
-
-	putchar('\n');
 
 	return (0);
 }
