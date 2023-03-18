@@ -4,7 +4,7 @@
 
 /**
 *main - Entry point
-*This program prints a random number a tells us if the 
+*This program prints a random number a tells us if the
 *number is positive or negative
 *Return: Always 0 (SUCCESS)
 */
