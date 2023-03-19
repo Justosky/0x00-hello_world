@@ -11,9 +11,13 @@
 int main(void)
 {
 	int first_pos_comb_for_two_digits, second_pos_comb_for_two_digits;
-	for (first_pos_comb_for_two_digits = 0; first_pos_comb_for_two_digits < 100; first_pos_comb_for_two_digits++)
+	for (first_pos_comb_for_two_digits = 0;
+		 first_pos_comb_for_two_digits < 100;
+		 first_pos_comb_for_two_digits++)
 	{
-	for (second_pos_comb_for_two_digits = 0; second_pos_comb_for_two_digits < 100; second_pos_comb_for_two_digits++)
+	for (second_pos_comb_for_two_digits = 0;
+		 second_pos_comb_for_two_digits < 100;
+		 second_pos_comb_for_two_digits++)
 		{
 	if (first_pos_comb_for_two_digits < second_pos_comb_for_two_digits)
 			{
