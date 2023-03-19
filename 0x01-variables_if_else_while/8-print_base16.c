@@ -13,7 +13,7 @@ int main(void)
 	num_of_base_sikstin++)
 	{putchar(num_of_base_sikstin); }
 
-	for (num_of_base_sikstin = 97; num_of_base_sikstin < 122;
+	for (num_of_base_sikstin = 97; num_of_base_sikstin <= 102;
 	 num_of_base_sikstin++)
 	{putchar(num_of_base_sikstin); }
 
