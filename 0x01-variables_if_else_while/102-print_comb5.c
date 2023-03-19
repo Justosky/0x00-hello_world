@@ -26,7 +26,8 @@ int main(void)
 		putchar(' ');
 		putchar((second_pos_comb_for_two_digits / 10) + 48);
 		putchar((second_pos_comb_for_two_digits % 10) + 48);
-	if (first_pos_comb_for_two_digits != 98 || second_pos_comb_for_two_digits != 99)
+	if (first_pos_comb_for_two_digits != 98
+		 || second_pos_comb_for_two_digits != 99)
 				{
 		putchar(',');
 		putchar(' ');
