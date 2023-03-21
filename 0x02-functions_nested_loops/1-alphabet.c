@@ -7,7 +7,7 @@
 */
 
 
-void print_alphabet(void);
+void print_alphabet(void)
 
 {
 	char all_lower_case_alphabets;
