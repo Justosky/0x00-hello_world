@@ -6,7 +6,8 @@
 *Return: Always 0 (SUCCESS)
 */
 
-int main(void)
+
+void print_alphabet_x10(void)
 
 {
 	char all_lower_case_alphabets;
