@@ -2,12 +2,12 @@
 
 
 /**
-*main - Entry point
+*print_alphabet - Entry point
 *Return: Always 0 (SUCCESS)
 */
 
 
-int main(void)
+void print_alphabet(void);
 
 {
 	char all_lower_case_alphabets;
@@ -17,4 +17,5 @@ int main(void)
 	all_lower_case_alphabets++){
 	_putchar(all_lower_case_alphabets); }
 	_putchar('\n');
+	return (0);
 }
