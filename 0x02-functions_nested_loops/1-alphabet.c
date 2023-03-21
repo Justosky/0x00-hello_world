@@ -16,7 +16,7 @@ int main(void)
 				all_lower_case_alphabets++)
 
 
-	{	_putchar('all_lower_case_alphabets');
+	{	_putchar(all_lower_case_alphabets);
 		_putchar('\n');	}
 return (0);
 
