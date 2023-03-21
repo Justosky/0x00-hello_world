@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 
@@ -15,7 +14,7 @@ int main(void)
 
 	for (all_lower_case_alphabets = 'a';
 	all_lower_case_alphabets <= 'z';
-	all_lower_case_alphabets++)
-	{ putchar(all_lower_case_alphabets);}
-	putchar('\n');
+	all_lower_case_alphabets++){
+	_putchar(all_lower_case_alphabets); }
+	_putchar('\n');
 }
