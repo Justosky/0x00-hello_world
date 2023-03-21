@@ -14,8 +14,9 @@ void print_alphabet(void);
 
 	for (all_lower_case_alphabets = 'a';
 	all_lower_case_alphabets <= 'z';
-	all_lower_case_alphabets++){
-	_putchar(all_lower_case_alphabets); }
+	all_lower_case_alphabets++)
+
+	{ _putchar(all_lower_case_alphabets); }
 	_putchar('\n');
 	return (0);
 }
