@@ -18,11 +18,11 @@ void jack_bauer(void)
 		for (jack_bauer_minutes = 0; jack_bauer_minutes < 60;
 			 jack_bauer_minutes++)
 			{
-			_putchar(jack_bauer_hours / 10);
-			_putchar(jack_bauer_hours % 10);
+			_putchar((jack_bauer_hours / 10));
+			_putchar((jack_bauer_hours % 10));
 			_putchar(':');
-			_putchar(jack_bauer_minutes / 10);
-			_putchar(jack_bauer_minutes % 10);
+			_putchar((jack_bauer_minutes / 10));
+			_putchar((jack_bauer_minutes % 10));
 
 
 			}
