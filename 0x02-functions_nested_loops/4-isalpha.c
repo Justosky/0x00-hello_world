@@ -13,7 +13,7 @@ int _isalpha(int c)
 	{
 	if (c >= 'A' && c <= 'Z')
 	{
-	if (c == 38 )
+	if (c < a)
 	{
 	return (0);
 	}
