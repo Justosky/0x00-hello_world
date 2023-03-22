@@ -3,7 +3,7 @@
 /**
 *print_to_98 - Print all natural numbers
 *@n: The natural numbers to be printed
-*Return: Always 0 (SUCCESS)
+*Return: Returns nothing
 */
 
 void print_to_98(int n)
@@ -16,6 +16,4 @@ void print_to_98(int n)
 	_putchar(',');
 	_putchar('\n');
 	}
-
-return (0);
 }
