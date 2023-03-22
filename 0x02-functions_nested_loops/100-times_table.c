@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
 *print_times_table - print the n times table
 *@n: The number whose times table is to be printed
