@@ -10,7 +10,8 @@ void print_alphabet_x10(void)
 
 	int multiply_by_ten = 0;
 
-	while (multiply_by_ten++ <= 9){
+	while (multiply_by_ten++ <= 9)
+		{
 	for (lowercase_alphabets = 'a'; lowercase_alphabets <= 'z';
 	lowercase_alphabets++)
 	{ _putchar(lowercase_alphabets); }
