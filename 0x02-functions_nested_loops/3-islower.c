@@ -11,7 +11,7 @@ int _islower(int c)
 	if (lower_case_alphabets >= 'a' && lower_case_alphabets <= 'z')
 	{
 	return(1);
-	else (return (0))
+	else {return (0)}
 	}
 
 }
