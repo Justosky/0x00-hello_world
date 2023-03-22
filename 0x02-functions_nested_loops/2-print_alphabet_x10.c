@@ -14,8 +14,9 @@ void print_alphabet_x10(void)
 		multiply_by_ten <= 9;
 		 multiply_by_ten++){
 	for (lowercase_alphabets = 'a'; lowercase_alphabets <= 'z';
-			lowercase_alphabets++)
-		{ _putchar(lowercase_alphabets); }
-	}
-	_putchar ('\n');
+	lowercase_alphabets++)
+	{ _putchar(lowercase_alphabets); }
+
+}
+	_putchar('\n');
 }
