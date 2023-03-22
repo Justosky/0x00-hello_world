@@ -10,8 +10,8 @@ int _islower(int c)
 	char lower_case_alphabets;
 	if (lower_case_alphabets >= 'a' && lower_case_alphabets <= 'z')
 	{
-	return(1);
+	return(1);}
 	else {return (0)}
-	}
+
 
 }
