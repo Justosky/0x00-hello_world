@@ -14,6 +14,6 @@ int main(void)
 
 	i = 0;
 	positive_or_negative(i);
-	printf("\n")
+	printf("Good \n")
 	return (0);
 }
