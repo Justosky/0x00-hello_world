@@ -8,11 +8,12 @@
 
 int _strlen(char *s)
 {
-	int string_lenght;
+	int string_lenght = 0;
 
 	for (; *s++;)
 	{
 		string_lenght++;
 	}
-		return (string_lenght);
+	
+	return (string_lenght);
 }
