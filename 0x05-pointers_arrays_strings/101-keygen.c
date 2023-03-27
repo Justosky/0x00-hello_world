@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -20,7 +22,8 @@ int main(void)
 		password[index] = 33 + rand() % 94;
 		sum += password[index++];
 	}
-password[index] = '\0';
+
+	password[index] = '\0';
 
 	if (sum != 2772)
 	{
@@ -46,4 +49,8 @@ password[index] = '\0';
 			}
 		}
 	}
+
+	printf("%s", password);
+
+	return (0);
 }
