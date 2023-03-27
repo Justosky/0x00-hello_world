@@ -46,4 +46,4 @@ password[index] = '\0';
 			}
 		}
 	}
-
+}
