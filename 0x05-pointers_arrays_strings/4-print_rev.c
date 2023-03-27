@@ -9,11 +9,11 @@
 
 void print_rev(char *s)
 {
-	int reverse_s
+	int reverse_s;
 	
 	int count = 0;
 
-	while (reverse_s[count] != '\0')
+	while (s[count] != '\0')
 	{
 	count++;
 	
