@@ -10,14 +10,14 @@
 void print_rev(char *s)
 {
 	int reverse_s;
-	
+
 	int count = 0;
 
 	while (s[count] != '\0')
-	
+
 	count++;
-	
-	for (reverse_s = count -1; reverse_s >= 0; reverse_s--)
+
+	for (reverse_s = count - 1; reverse_s >= 0; reverse_s--)
 	{
 	_putchar(s[reverse_s]);
 	}
