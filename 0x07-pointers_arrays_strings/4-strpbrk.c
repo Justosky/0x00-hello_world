@@ -5,7 +5,7 @@
  *of any of the bytes in the string "accept".
  *@s: One of the string that I am working with.
  *@accept: One of the string that I am working with.
- * Return: Returns a pointer to the byte in s that matches one of the 
+ * Return: Returns a pointer to the byte in s that matches one of the
  * bytes in "accept", or NULL if no such byte is found
  */
 
@@ -25,6 +25,6 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 	}
-	
+
 	return ('\0');
 }
