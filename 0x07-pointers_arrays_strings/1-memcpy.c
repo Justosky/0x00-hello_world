@@ -11,13 +11,16 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	char *pointer_to_dest = dest;
+	char *pointer_to_src = src;
+
 	unsigned int count_for_src_to_dest_copy;
 
 	for (count_for_src_to_dest_copy = 0; count_for_src_to_dest_copy < n;
 	count_for_src_to_dest_copy++)
 
 	{
-	src[count_for_src_to_dest_copy] = dest[count_for_src_to_dest_copy];
+	*(pointer_to_dest++) = *(pointer_to_src++);
 	}
 		return (dest);
 }
