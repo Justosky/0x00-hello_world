@@ -17,7 +17,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	count_for_src_to_dest_copy++)
 
 	{
-		src[count_for_src_to_dest_copy] = dest[count_for_src_dest_copy];
+		*src[count_for_src_to_dest_copy] = *dest[count_for_src_dest_copy];
 	}
 		return (dest);
 }
