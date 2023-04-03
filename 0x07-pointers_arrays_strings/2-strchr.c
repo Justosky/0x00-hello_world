@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  *_strchr - This function locates a character "c" in the string "s".
@@ -11,18 +11,18 @@
 
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	for (; *s != '\0' ;)
 	{
-		if (*s == 'c')
-		{
-			return (s);
-		}
-		s++;
+	if (*s == c)
+	{
+		return (s);
 	}
-		if (c == '\0')
-		{
-			return (s);
-		}
-
-		return ('\0');
+	s++;
+	}
+	if (c == '\0')
+	{
+	return (s);
+	}
+	return ('\0');
 }
+
