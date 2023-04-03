@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _memcpy - This function copies n bytes from memory area src to the
