@@ -1,25 +1,46 @@
-#include <string.h>
 #include "main.h"
-
 /**
- * is_palindrome - This function checks if a string is palindrome
- * @s:The string to be checked
- * Return: An interger
+ * _strlen- This function Prints the length of a string.
+ * @s: the string which lenght will be printed.
+ * Return: returns an interger value which is the value for 
+ * the length of string "s"
+ */
+int _strlen(char *s)
+{
+	if (s[0] != '\0')
+	{
+	return (1 + _strlen(s + 1));
+	}
+	else
+	return (0);
+}
+/**
+ * pal_checker - This function will check if a given
+ * string "s" is palindrome.
+ * @s: The string that is to be checked.
+ * @i: left index of the string.
+ * @j: right index of the string.
+ * Return: 1 if s is palindrome, otherwise 0.
+ */
+int pal_checker(char *s, int i, int j)
+{
+	if (s[i] == s[j])
+		if (i > j / 2)
+			return (1);
+		else
+			return (pal_checker(s, i + 1, j - 1));
+	else
+		return (0);
+}
+/**
+ * is_palindrome - This function will be assisted be the above functions to 
+ * determine if s is palindrome
+ * @s: A string.
+ *
+ * Return: 1 if the string is palindrome else 0.
  */
 int is_palindrome(char *s)
 {
-
-	int i, j;
-
-	int len = strlen(s);
-
-	for (i = 0, j = len - 1; i <= j; i++, j--)
-	{
-	if (s[i] != s[j])
-	{
-	return (0);
-	}
-	}
-	return (1);
+	return (pal_checker(s, 0, _strlen(s) - 1));
 }
 
