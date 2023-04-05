@@ -1,29 +1,38 @@
 #include "main.h"
 
 /**
- * is_prime_number - This function checks if an inputed
- * interger is a prime number
- * @n: The inputed to check.
- * Return: This function returns an interger 0 when n is not a prime number
- * and returns 1 when n is a prime number
+ * justosky_prime_check - This function checks to see if a
+ * given number is prime.
+ * @a:The interger with which we are working with
+ * @b:The interger which we want to check if it's prime or not.
+ * Return:This function returns an interger 1 if the number "b" is prime
+ * otherwise it returns 0
  */
 
+int justosky_prime_check(int a, int b)
+{
+	if ((b < 2) || (b % a) == 0)
+		return (0);
+	else if (a > (b / 2))
+	{
+	return (1);
+	}
+	else
+	return (justosky_prime_check(a + 1, b));
+}
+
+/**
+ * is_prime_number - states if number is prime
+ * @n:int
+ * Return:int
+ */
 int is_prime_number(int n)
 {
-	int iteration_count;
-
-	if (n <= 1)
+	if (n == 2)
 	{
-		return (0);
+	return (1);
 	}
-	for (iteration_count = 2; iteration_count < n / 2; iteration_count++)
-	{
-		if (n % iteration_count == 0)
-		{
-			return (0);
-		}
-
-	}
-		return (1);
+	else
+	return (justosky_prime_check(2, n));
 }
 
