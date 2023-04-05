@@ -2,7 +2,7 @@
 /**
  * _strlen- This function Prints the length of a string.
  * @s: the string which lenght will be printed.
- * Return: returns an interger value which is the value for 
+ * Return: returns an interger value which is the value for
  * the length of string "s"
  */
 int _strlen(char *s)
@@ -33,7 +33,7 @@ int pal_checker(char *s, int i, int j)
 		return (0);
 }
 /**
- * is_palindrome - This function will be assisted be the above functions to 
+ * is_palindrome - This function will be assisted be the above functions to
  * determine if s is palindrome
  * @s: A string.
  *
