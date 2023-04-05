@@ -27,11 +27,11 @@ int justosky_sqrt_checker(int a, int b)
 		return (justosky_sqrt_checker(a + 1, b));
 	}
 /**
- * _sqrt_recursion - This function prints square root.
+ *_sqrt_recursion - This function prints square root.
  *@n: The interger that we want to obtain it's value.
  *Return: Returns an interger.
  */
-}
+
 int _sqrt_recursion(int n)
 {
 	if ((n == 0) || (n == 1))
