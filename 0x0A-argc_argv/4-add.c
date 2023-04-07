@@ -11,20 +11,22 @@
 
 int main(int argc, char *argv[])
 {
+	int sum = 0;
+	int i;
+	const char *arg;
+	const char *c;
+	int num;
+	(void) argv;
+
 	if (argc == 1)
 	{
 	printf("0\n");
 	return (0);
 	}
-
-	int sum = 0;
-
-	for (int i = 1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-
-	const char *arg = argv[i];
-
-	for (const char *c = arg; *c != '\0'; c++)
+	arg = argv[i];
+	for (c = arg; *c != '\0'; c++)
 	{
 	if (!isdigit(*c))
 	{
@@ -33,7 +35,7 @@ int main(int argc, char *argv[])
 	}
 	}
 
-	int num = atoi(arg);
+	num = atoi(arg);
 
 	if (num < 0)
 	{
