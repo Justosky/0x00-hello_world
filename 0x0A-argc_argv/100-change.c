@@ -10,8 +10,8 @@
  */
 
 int main(int argc, char *argv[])
-{
-	int cents;
+{	int cents;
+	int coins;
 
 	if (argc == 1)
 	{
@@ -24,9 +24,7 @@ int main(int argc, char *argv[])
 	printf("0\n");
 	return (1);
 	}
-
-	int coins = get_change(cents);
-
+	coins = get_change(cents);
 	printf("%d\n", coins);
 	return (0);
 }
