@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * _print - This function moves a string one place to
