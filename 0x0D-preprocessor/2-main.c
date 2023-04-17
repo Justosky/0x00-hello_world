@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -21,14 +20,11 @@ int main(void)
 return (0);
 }
 
-/**
-*_putchar - This function writes a single character to standard output.
-*@c: The character to be printed.
-*Return: This function returns nothing(void).
-*/
-void _putchar(char c)
-{
-	write(1, &c, 1);
-}
-
+#include <unistd.h>                                                             
+ 
+   void _putchar(char c)
+  {
+           write(1, &c, 1);
+  }
+  
 
