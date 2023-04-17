@@ -1,30 +1,12 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-*main - The entry point.
-*Return:This function returns (0) on success and otherwise it
-* returns 1 on failure
+*main - Entry point
+*Return: Returns 0 on success and 1 for failure
 */
 
 int main(void)
 {
-	char *file_name = __FILE__;
-	int count_file_name;
-
-	for (count_file_name = 0; *(file_name + count_file_name) != '\0';
-	 count_file_name++)
-	{
-		_putchar(*(file_name + count_file_name));
-	}
-		_putchar('\n');
-return (0);
+	printf("%s\n", __FILE__);
+	return (0);
 }
-
-#include <unistd.h>                                                             
- 
-   void _putchar(char c)
-  {
-           write(1, &c, 1);
-  }
-  
-
