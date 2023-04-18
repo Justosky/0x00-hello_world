@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "dog.h"
-#include "main.h"
+/**
+*print_dog - Prints dog name, age and owner.
+*@d: A pointer.
+*/
 
 void print_dog(struct dog *d)
 {
@@ -11,8 +14,8 @@ void print_dog(struct dog *d)
 	else
 	{
 		printf("%s\n", d->name ? d->name : "(nil)");
-		printf("%f\n", d->age);
-		printf("%s\n",d->owner);
+		printf("%.6f\n", d->age);
+		printf("%s\n", d->owner);
 
 	}
 }
