@@ -7,12 +7,17 @@
 
 void print_dog(struct dog *d)
 {
-	if (d->name == NULL)
+	if (d != NULL)
 	{
-		printf("(nill)");
-	}
-	else
-	{
+		if (d->name != NULL)
+		{
+			printf("%s\n", d->name);
+		}
+		else
+		{
+			printf("(nil)\n");
+		}
+
 		printf("%.6f\n", d->age);
 		printf("%s\n", d->owner);
 	}
