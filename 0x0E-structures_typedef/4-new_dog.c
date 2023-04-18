@@ -3,8 +3,8 @@
 
 /**
  * new_dog - A function that creates a new dog
- * @name: name of the dog to be created 
- * @age: age of dog to be created 
+ * @name: name of the dog to be created
+ * @age: age of dog to be created
  * @owner: owner of dog to be craeted
  *
  * Return: pointer to new dog
