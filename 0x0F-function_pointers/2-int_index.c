@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
-  * int_index - The index 
+  * int_index - The index
   * @array: An array
   * @size: Size of the array
   * @cmp: Cmp
