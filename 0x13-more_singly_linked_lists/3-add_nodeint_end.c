@@ -24,13 +24,12 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		else
 		{
 
-			for(; temp != NULL ;)
+			for(; (*temp).next != NULL ;)
 			{
 				temp = temp->next;
 			}
 		}
 	}
-
-        temp->next = lastnode;
+	temp->next = lastnode;
 	return (lastnode);
 }
