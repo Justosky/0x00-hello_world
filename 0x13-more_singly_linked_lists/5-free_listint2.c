@@ -13,9 +13,8 @@ void free_listint2(listint_t **head)
 
 	for (; *head != NULL ;)
 	{
-		free_list = *head;
-		*head = (*head)->next;
-		free(free_list);
+		free_list = (*head)->next;
+		free(*head);
+		*head = free_list;
 	}
-		*head = NULL;
 }
