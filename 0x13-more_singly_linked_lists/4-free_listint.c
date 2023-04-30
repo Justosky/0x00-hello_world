@@ -12,9 +12,10 @@ void free_listint(listint_t *head)
 
 	for (; head->next != NULL ;)
 	{
-		free_list = head;
-		head = head->next;
-		free(free_list);
+		free_list = head->next;
+		free(head);
+		head = free_list;
+
 	}
 
 }
