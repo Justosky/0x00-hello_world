@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * _ra - A function reallocates memory for an array of 
+ * _ra - A function reallocates memory for an array of
  *pointers
  * to the nodes of a linked list
  * @list: the old list that we want to append
- * @size: size of the new list and it will always be one 
+ * @size: size of the new list and it will always be one
  * more than the old list
  * @new: new node to add to the list
  * Return: pointer to the new list
