@@ -29,5 +29,5 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 			CurrentNode = CurrentNode->next;
 		}
 	}
-		return (NULL);
+		return (CurrentNode);
 }
